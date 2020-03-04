@@ -22,3 +22,5 @@ foreach(_dep ${rosidl_runtime_packages})
     endif()
   endif()
 endforeach()
+
+include_directories(${@PROJECT_NAME@_INCLUDE_DIRS})
