@@ -34,7 +34,7 @@ Below are the rationales, notes, and caveats for this claim, organized by each r
 
 ### Change Requests [2.i]
 
-This package requires that all changes occur through a pull request.
+All changes will occur through a pull request, check [ROS 2 Developer Guide](https://index.ros.org/doc/ros2/Contributing/Developer-Guide/#change-control-process) for additional information.
 
 ### Contributor Origin [2.ii]
 
