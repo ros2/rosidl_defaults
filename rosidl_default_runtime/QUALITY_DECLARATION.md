@@ -26,7 +26,7 @@ Below are the rationales, notes, and caveats for this claim, organized by each r
 
 ### ABI Stability Within a Released ROS Distribution [1.v]/[1.vi]
 
-`rosidl_default_runtime` does not contain any c or c++ code, therefore changes will not affect ABI stability.
+`rosidl_default_runtime` does not contain any C or C++ code, therefore changes will not affect ABI stability.
 
 ## Change Control Process [2]
 
