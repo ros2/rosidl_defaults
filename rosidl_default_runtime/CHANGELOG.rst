@@ -2,8 +2,8 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2020-05-26)
+------------------
 * Some simple feature documentation in the README (`#8 <https://github.com/ros2/rosidl_defaults/issues/8>`_)
 * Add Readme and QD for rosidl_default_runtime (`#7 <https://github.com/ros2/rosidl_defaults/issues/7>`_)
 * Contributors: brawner
