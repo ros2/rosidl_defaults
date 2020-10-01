@@ -2,9 +2,9 @@ This document is a declaration of software quality for the `rosidl_default_runti
 
 # `rosidl_default_runtime` Quality Declaration
 
-The package `rosidl_default_runtime` claims to be in the **Quality Level 3** category.
+The package `rosidl_default_runtime` claims to be in the **Quality Level 2** category.
 
-Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 3 in REP-2004](https://www.ros.org/reps/rep-2004.html).
+Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 2 in REP-2004](https://www.ros.org/reps/rep-2004.html).
 
 ## Version Policy [1]
 
@@ -90,6 +90,8 @@ Results of linter tests can be found [here](https://ci.ros2.org/view/nightly/job
 * `rosidl_runtime_packages`
 * `rosidl_typesupport_c_packages`
 * `rosidl_typesupport_cpp_packages`
+
+Note that interface generation or interface typesupport dependencies not used by the default ROS middleware implementation or used only by Python client libraries are not considered in this assessment.
 
 ### Direct Runtime Non-ROS Dependencies [5.iii]
 `rosidl_default_runtime` does not have any runtime non-ROS dependencies.
