@@ -2,7 +2,7 @@ This document is a declaration of software quality for the `rosidl_default_runti
 
 # `rosidl_default_runtime` Quality Declaration
 
-The package `rosidl_default_runtime` claims to be in the **Quality Level 2** category.
+The package `rosidl_default_runtime` claims to be in the **Quality Level 1** category as long as it is used with a **Quality Level 1** middleware.
 
 Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 2 in REP-2004](https://www.ros.org/reps/rep-2004.html).
 
@@ -86,12 +86,16 @@ Results of linter tests can be found [here](https://ci.ros2.org/view/nightly/job
 
 ### Direct Runtime ROS Dependencies [5.i]/[5.ii]
 
-`rosidl_default_runtime` has the following group dependencies:
-* `rosidl_runtime_packages`
-* `rosidl_typesupport_c_packages`
-* `rosidl_typesupport_cpp_packages`
+`rosidl_default_runtime` has the following group dependencies all of which are at **Quality Level 1** for **Quality Level 1** middlewares:
+* `rosidl_runtime_packages` At the time of writing, this group contains the following runtime packages:
+  - `rosidl_runtime_c` [QUALITY DECLARATION](https://github.com/ros2/rosidl/blob/master/rosidl_runtime_c/QUALITY_DECLARATION.md)
+  - `rosidl_runtime_cpp` [QUALITY DECLARATION](https://github.com/ros2/rosidl/blob/master/rosidl_runtime_cpp/QUALITY_DECLARATION.md)
+  - `rosidl_typesupport_c` [QUALITY DECLARATION](https://github.com/ros2/rosidl_typesupport/blob/master/rosidl_typesupport_c/QUALITY_DECLARATION.md)
+  - `rosidl_typesupport_cpp` [QUALITY DECLARATION](https://github.com/ros2/rosidl_typesupport/blob/master/rosidl_typesupport_cpp/QUALITY_DECLARATION.md)
+* `rosidl_typesupport_c_packages` At the time of writing, this group does not contain middleware independent runtime dependencies. It will likely include `typesupport_c` packages for your chosen middleware, which need to be **Quality Level 1** for this package to be considered **Quality Level 1**.
+* `rosidl_typesupport_cpp_packages` At the time of writing, this group does not contain middleware independent runtime dependencies. It will likely include `typesupport_cpp` packages for your chosen middleware, which need to be **Quality Level 1** for this package to be considered **Quality Level 1**.
 
-Note that interface generation or interface typesupport dependencies not used by the default ROS middleware implementation or used only by Python client libraries are not considered in this assessment.
+Note that interface generation or interface typesupport dependencies used only by Python client libraries are not considered in this assessment.
 
 ### Direct Runtime Non-ROS Dependencies [5.iii]
 `rosidl_default_runtime` does not have any runtime non-ROS dependencies.
