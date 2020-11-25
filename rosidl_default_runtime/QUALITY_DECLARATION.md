@@ -80,7 +80,7 @@ There are no source code files in this package and therefore no files are curren
 
 `rmw` uses and passes all the standard linters and static analysis tools for a CMake package as described in the [ROS 2 Developer Guide](https://index.ros.org/doc/ros2/Contributing/Developer-Guide/#linters).
 
-Results of linter tests can be found [here](https://ci.ros2.org/view/nightly/job/nightly_linux_release/lastBuild/testReport/rosidl_default_runtime/).
+Results of linter tests can be found [here](http://build.ros2.org/view/Fci/job/Fci__nightly-release_ubuntu_focal_amd64/206/testReport/rosidl_default_runtime/).
 
 ## Dependencies [5]
 
@@ -88,10 +88,10 @@ Results of linter tests can be found [here](https://ci.ros2.org/view/nightly/job
 
 `rosidl_default_runtime` has the following group dependencies all of which are at **Quality Level 1** for **Quality Level 1** middlewares:
 * `rosidl_runtime_packages` At the time of writing, this group contains the following runtime packages:
-  - `rosidl_runtime_c` [QUALITY DECLARATION](https://github.com/ros2/rosidl/blob/master/rosidl_runtime_c/QUALITY_DECLARATION.md)
-  - `rosidl_runtime_cpp` [QUALITY DECLARATION](https://github.com/ros2/rosidl/blob/master/rosidl_runtime_cpp/QUALITY_DECLARATION.md)
-  - `rosidl_typesupport_c` [QUALITY DECLARATION](https://github.com/ros2/rosidl_typesupport/blob/master/rosidl_typesupport_c/QUALITY_DECLARATION.md)
-  - `rosidl_typesupport_cpp` [QUALITY DECLARATION](https://github.com/ros2/rosidl_typesupport/blob/master/rosidl_typesupport_cpp/QUALITY_DECLARATION.md)
+  - `rosidl_runtime_c` [QUALITY DECLARATION](https://github.com/ros2/rosidl/blob/foxy/rosidl_runtime_c/QUALITY_DECLARATION.md)
+  - `rosidl_runtime_cpp` [QUALITY DECLARATION](https://github.com/ros2/rosidl/blob/foxy/rosidl_runtime_cpp/QUALITY_DECLARATION.md)
+  - `rosidl_typesupport_c` [QUALITY DECLARATION](https://github.com/ros2/rosidl_typesupport/blob/foxy/rosidl_typesupport_c/QUALITY_DECLARATION.md)
+  - `rosidl_typesupport_cpp` [QUALITY DECLARATION](https://github.com/ros2/rosidl_typesupport/blob/foxy/rosidl_typesupport_cpp/QUALITY_DECLARATION.md)
 * `rosidl_typesupport_c_packages` At the time of writing, this group does not contain middleware independent runtime dependencies. It will likely include `typesupport_c` packages for your chosen middleware, which need to be **Quality Level 1** for this package to be considered **Quality Level 1**.
 * `rosidl_typesupport_cpp_packages` At the time of writing, this group does not contain middleware independent runtime dependencies. It will likely include `typesupport_cpp` packages for your chosen middleware, which need to be **Quality Level 1** for this package to be considered **Quality Level 1**.
 
@@ -104,11 +104,11 @@ Note that interface generation or interface typesupport dependencies used only b
 
 `rosidl_default_runtime` supports all of the tier 1 platforms as described in [REP-2000](https://www.ros.org/reps/rep-2000.html#support-tiers), and tests each change against all of them.
 
-Currently nightly results can be seen here:
-* [linux-aarch64_release](https://ci.ros2.org/view/nightly/job/nightly_linux-aarch64_release/lastBuild/testReport/rosidl_default_runtime/)
-* [linux_release](https://ci.ros2.org/view/nightly/job/nightly_linux_release/lastBuild/testReport/rosidl_default_runtime/)
-* [mac_osx_release](https://ci.ros2.org/view/nightly/job/nightly_osx_release/lastBuild/testReport/rosidl_default_runtime/)
-* [windows_release](https://ci.ros2.org/view/nightly/job/nightly_win_rel/lastBuild/testReport/rosidl_default_runtime/)
+Though there are no nightly jobs for foxy outside of linux, each change is tested on ci.ros2.org.
+* [linux-aarch64](https://ci.ros2.org/job/ci_linux-aarch64)
+* [linux](https://ci.ros2.org/job/ci_linux)
+* [mac_osx](https://ci.ros2.org/job/ci_osx)
+* [windows](https://ci.ros2.org/job/ci_windows)
 
 ## Security [7]
 
