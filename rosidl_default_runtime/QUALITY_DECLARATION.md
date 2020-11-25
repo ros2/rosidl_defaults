@@ -2,7 +2,7 @@ This document is a declaration of software quality for the `rosidl_default_runti
 
 # `rosidl_default_runtime` Quality Declaration
 
-The package `rosidl_default_runtime` claims to be in the **Quality Level 2** category.
+The package `rosidl_default_runtime` claims to be in the **Quality Level 1** category as long as it is used with a **Quality Level 1** middleware.
 
 Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 2 in REP-2004](https://www.ros.org/reps/rep-2004.html).
 
@@ -86,7 +86,7 @@ Results of linter tests can be found [here](https://ci.ros2.org/view/nightly/job
 
 ### Direct Runtime ROS Dependencies [5.i]/[5.ii]
 
-`rosidl_default_runtime` has the following group dependencies:
+`rosidl_default_runtime` has the following group dependencies all of which are at **Quality Level 1** for **Quality Level 1** middlewares:
 * `rosidl_runtime_packages`
 * `rosidl_typesupport_c_packages`
 * `rosidl_typesupport_cpp_packages`
