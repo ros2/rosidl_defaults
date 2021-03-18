@@ -2,6 +2,11 @@
 Changelog for package rosidl_default_generators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update maintainers (`#13 <https://github.com/ros2/rosidl_defaults/issues/13>`_)
+* Contributors: Shane Loretz
+
 1.0.0 (2020-05-26)
 ------------------
 

@@ -2,6 +2,16 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update QD to QL 1 (`#15 <https://github.com/ros2/rosidl_defaults/issues/15>`_)
+* Update maintainers (`#13 <https://github.com/ros2/rosidl_defaults/issues/13>`_)
+* Updated QD to 2 in README.md (`#12 <https://github.com/ros2/rosidl_defaults/issues/12>`_)
+* Update rosidl_default_runtime QD to QL2. (`#11 <https://github.com/ros2/rosidl_defaults/issues/11>`_)
+* Bump the QUALITY_DECLARATION to level 3. (`#10 <https://github.com/ros2/rosidl_defaults/issues/10>`_)
+* Add Security Vulnerability Policy pointing to REP-2006. (`#9 <https://github.com/ros2/rosidl_defaults/issues/9>`_)
+* Contributors: Alejandro Hernández Cordero, Chris Lalancette, Michel Hidalgo, Shane Loretz, Stephen Brawner
+
 1.0.0 (2020-05-26)
 ------------------
 * Some simple feature documentation in the README (`#8 <https://github.com/ros2/rosidl_defaults/issues/8>`_)
