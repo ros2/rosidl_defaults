@@ -2,8 +2,8 @@
 Changelog for package rosidl_default_generators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2021-03-18)
+------------------
 * Update maintainers (`#13 <https://github.com/ros2/rosidl_defaults/issues/13>`_)
 * Contributors: Shane Loretz
 

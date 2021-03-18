@@ -2,8 +2,8 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2021-03-18)
+------------------
 * Update QD to QL 1 (`#15 <https://github.com/ros2/rosidl_defaults/issues/15>`_)
 * Update maintainers (`#13 <https://github.com/ros2/rosidl_defaults/issues/13>`_)
 * Updated QD to 2 in README.md (`#12 <https://github.com/ros2/rosidl_defaults/issues/12>`_)
