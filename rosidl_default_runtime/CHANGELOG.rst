@@ -2,6 +2,11 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* updating quality declaration links (re: `ros2/docs.ros2.org#52 <https://github.com/ros2/docs.ros2.org/issues/52>`_) (`#18 <https://github.com/ros2/rosidl_defaults/issues/18>`_)
+* Contributors: shonigmann
+
 1.1.0 (2021-03-18)
 ------------------
 * Update QD to QL 1 (`#15 <https://github.com/ros2/rosidl_defaults/issues/15>`_)
