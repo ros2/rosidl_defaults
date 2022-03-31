@@ -13,13 +13,19 @@
   <buildtool_export_depend>ament_cmake_core</buildtool_export_depend>
   <buildtool_export_depend>rosidl_cmake</buildtool_export_depend>
 
+  <!-- Bloom does not support group_depend, so this unrolls rosidl_generator_packages -->
   <buildtool_export_depend>rosidl_generator_c</buildtool_export_depend>
   <buildtool_export_depend>rosidl_generator_cpp</buildtool_export_depend>
   <buildtool_export_depend>rosidl_generator_py</buildtool_export_depend>
 
+  <!-- Bloom does not support group_depend, so this unrolls rosidl_typesupport_c_packages -->
   <buildtool_export_depend>rosidl_typesupport_c</buildtool_export_depend>
-  <buildtool_export_depend>rosidl_typesupport_cpp</buildtool_export_depend>
+  <buildtool_export_depend>rosidl_typesupport_fastrtps_c</buildtool_export_depend>
   <buildtool_export_depend>rosidl_typesupport_introspection_c</buildtool_export_depend>
+
+  <!-- Bloom does not support group_depend, so this unrolls rosidl_typesupport_cpp_packages -->
+  <buildtool_export_depend>rosidl_typesupport_cpp</buildtool_export_depend>
+  <buildtool_export_depend>rosidl_typesupport_fastrtps_cpp</buildtool_export_depend>
   <buildtool_export_depend>rosidl_typesupport_introspection_cpp</buildtool_export_depend>
 
   <test_depend>ament_lint_auto</test_depend>
