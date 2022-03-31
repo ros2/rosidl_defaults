@@ -2,6 +2,11 @@
 Changelog for package rosidl_default_generators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Unroll group dependencies (`#20 <https://github.com/ros2/rosidl_defaults/issues/20>`_)
+* Contributors: Shane Loretz
+
 1.1.1 (2021-04-06)
 ------------------
 
