@@ -2,6 +2,9 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.0 (2022-05-04)
+------------------
+
 1.2.0 (2022-03-31)
 ------------------
 * Unroll group dependencies (`#20 <https://github.com/ros2/rosidl_defaults/issues/20>`_)
