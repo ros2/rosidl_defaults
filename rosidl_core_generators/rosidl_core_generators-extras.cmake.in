@@ -1,5 +1,5 @@
 # generated from
-# rosidl_default_generators/rosidl_default_generators-extras.cmake.in
+# rosidl_core_generators/rosidl_core_generators-extras.cmake.in
 
 find_package(ament_cmake_core REQUIRED)
 ament_index_get_resources(rosidl_typesupport_c_packages "rosidl_typesupport_c")
