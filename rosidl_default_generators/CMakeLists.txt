@@ -6,6 +6,8 @@ find_package(ament_cmake REQUIRED)
 
 ament_export_dependencies(ament_cmake_core)
 ament_export_dependencies(rosidl_core_generators)
+ament_export_dependencies(service_msgs)
+ament_export_dependencies(action_msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
