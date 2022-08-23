@@ -86,14 +86,9 @@ Results of linter tests can be found [here](https://ci.ros2.org/view/nightly/job
 
 ### Direct Runtime ROS Dependencies [5.i]/[5.ii]
 
-`rosidl_default_runtime` has the following group dependencies all of which are at **Quality Level 1** for **Quality Level 1** middlewares:
-* `rosidl_runtime_packages` At the time of writing, this group contains the following runtime packages:
-  - `rosidl_runtime_c` [QUALITY DECLARATION](https://github.com/ros2/rosidl/blob/master/rosidl_runtime_c/QUALITY_DECLARATION.md)
-  - `rosidl_runtime_cpp` [QUALITY DECLARATION](https://github.com/ros2/rosidl/blob/master/rosidl_runtime_cpp/QUALITY_DECLARATION.md)
-  - `rosidl_typesupport_c` [QUALITY DECLARATION](https://github.com/ros2/rosidl_typesupport/blob/master/rosidl_typesupport_c/QUALITY_DECLARATION.md)
-  - `rosidl_typesupport_cpp` [QUALITY DECLARATION](https://github.com/ros2/rosidl_typesupport/blob/master/rosidl_typesupport_cpp/QUALITY_DECLARATION.md)
-* `rosidl_typesupport_c_packages` At the time of writing, this group does not contain middleware independent runtime dependencies. It will likely include `typesupport_c` packages for your chosen middleware, which need to be **Quality Level 1** for this package to be considered **Quality Level 1**.
-* `rosidl_typesupport_cpp_packages` At the time of writing, this group does not contain middleware independent runtime dependencies. It will likely include `typesupport_cpp` packages for your chosen middleware, which need to be **Quality Level 1** for this package to be considered **Quality Level 1**.
+`rosidl_default_runtime` has the following depedencies, all of which are at **Quality Level 1** for **Quality Level 1** middlewares:
+* `rosidl_core_runtime` [QUALITY DECLARATION](https://github.com/ros2/rosidl_core/blob/rolling/rosidl_core_runtime/QUALITY_DECLARATION.md)
+* `action_msgs` [QUALITY DECLARATION](https://github.com/ros2/rcl_interfaces/blob/rolling/action_msgs/QUALITY_DECLARATION.md)
 
 Note that interface generation or interface typesupport dependencies used only by Python client libraries are not considered in this assessment.
 
@@ -107,7 +102,6 @@ Note that interface generation or interface typesupport dependencies used only b
 Currently nightly results can be seen here:
 * [linux-aarch64_release](https://ci.ros2.org/view/nightly/job/nightly_linux-aarch64_release/lastBuild/testReport/rosidl_default_runtime/)
 * [linux_release](https://ci.ros2.org/view/nightly/job/nightly_linux_release/lastBuild/testReport/rosidl_default_runtime/)
-* [mac_osx_release](https://ci.ros2.org/view/nightly/job/nightly_osx_release/lastBuild/testReport/rosidl_default_runtime/)
 * [windows_release](https://ci.ros2.org/view/nightly/job/nightly_win_rel/lastBuild/testReport/rosidl_default_runtime/)
 
 ## Security [7]
