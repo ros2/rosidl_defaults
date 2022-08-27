@@ -12,6 +12,7 @@
   
   <!-- Code generation for Actions depends on action_msgs -->
   <buildtool_export_depend>action_msgs</buildtool_export_depend>
+  <buildtool_export_depend>service_msgs</buildtool_export_depend>
 
   <buildtool_export_depend>ament_cmake_core</buildtool_export_depend>
 
