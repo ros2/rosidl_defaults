@@ -2,6 +2,15 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.0 (2022-09-08)
+------------------
+* Move dependencies to rosidl_core and depend on action_msgs (`#22 <https://github.com/ros2/rosidl_defaults/issues/22>`_)
+  Move implementation to new packages rosidl_core_generators and rosidl_runtime_generators
+  The new packages are located in a separate repository: https://github.com/ros2/rosidl_core.git
+  rosidl_defaults now depends on the new packages, plus message definitions required for Actions (namely action_msgs).
+  This allows users to avoid having to explictly depend on action_msgs.
+* Contributors: Jacob Perron
+
 1.3.0 (2022-05-04)
 ------------------
 
