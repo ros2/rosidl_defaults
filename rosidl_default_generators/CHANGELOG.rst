@@ -2,6 +2,12 @@
 Changelog for package rosidl_default_generators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add service_msgs depend (`#24 <https://github.com/ros2/rosidl_defaults/issues/24>`_)
+* [rolling] Update maintainers - 2022-11-07 (`#25 <https://github.com/ros2/rosidl_defaults/issues/25>`_)
+* Contributors: Audrow Nash, Brian
+
 1.4.0 (2022-09-08)
 ------------------
 * Move dependencies to rosidl_core and depend on action_msgs (`#22 <https://github.com/ros2/rosidl_defaults/issues/22>`_)
