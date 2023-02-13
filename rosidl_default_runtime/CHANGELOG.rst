@@ -2,8 +2,8 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.5.0 (2023-02-13)
+------------------
 * add service_msgs depend (`#24 <https://github.com/ros2/rosidl_defaults/issues/24>`_)
 * [rolling] Update maintainers - 2022-11-07 (`#25 <https://github.com/ros2/rosidl_defaults/issues/25>`_)
 * Contributors: Audrow Nash, Brian
