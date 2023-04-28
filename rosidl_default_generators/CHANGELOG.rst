@@ -2,6 +2,9 @@
 Changelog for package rosidl_default_generators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.6.0 (2023-04-28)
+------------------
+
 1.5.0 (2023-02-13)
 ------------------
 * add service_msgs depend (`#24 <https://github.com/ros2/rosidl_defaults/issues/24>`_)
