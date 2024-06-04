@@ -4,7 +4,7 @@ This document is a declaration of software quality for the `rosidl_default_runti
 
 The package `rosidl_default_runtime` claims to be in the **Quality Level 1** category as long as it is used with a **Quality Level 1** middleware.
 
-Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 2 in REP-2004](https://www.ros.org/reps/rep-2004.html).
+Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 1 in REP-2004](https://www.ros.org/reps/rep-2004.html).
 
 ## Version Policy [1]
 
@@ -14,7 +14,8 @@ Below are the rationales, notes, and caveats for this claim, organized by each r
 
 ### Version Stability [1.ii]
 
-`rosidl_default_runtime` is at a stable version i.e. `>= 1.0.0`.  The current version can be found in its [package.xml](./package.xml), and its change history can be found in its [CHANGELOG](./CHANGELOG.md).
+`rosidl_default_runtime` is at a stable version i.e. `>= 1.0.0`.
+The current version can be found in its [package.xml](./package.xml), and its change history can be found in its [CHANGELOG](./CHANGELOG.md).
 
 ### Public API Declaration [1.iii]
 
@@ -38,7 +39,8 @@ All changes will occur through a pull request, check [ROS 2 Developer Guide](htt
 
 ### Contributor Origin [2.ii]
 
-This package uses DCO as its confirmation of contributor origin policy. More information can be found in [CONTRIBUTING](../CONTRIBUTING.md).
+This package uses DCO as its confirmation of contributor origin policy.
+More information can be found in [CONTRIBUTING](../CONTRIBUTING.md).
 
 ### Peer Review Policy [2.iii]
 
