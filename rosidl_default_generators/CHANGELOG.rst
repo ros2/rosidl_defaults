@@ -2,6 +2,9 @@
 Changelog for package rosidl_default_generators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.7.0 (2024-04-26)
 ------------------
 

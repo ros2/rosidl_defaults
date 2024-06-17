@@ -2,6 +2,11 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Minor update to quality declaration (`#27 <https://github.com/ros2/rosidl_defaults/issues/27>`_)
+* Contributors: Christophe Bedard
+
 1.7.0 (2024-04-26)
 ------------------
 
