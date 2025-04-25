@@ -2,6 +2,9 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.0 (2025-04-25)
+------------------
+
 1.7.1 (2024-06-17)
 ------------------
 * Minor update to quality declaration (`#27 <https://github.com/ros2/rosidl_defaults/issues/27>`_)
