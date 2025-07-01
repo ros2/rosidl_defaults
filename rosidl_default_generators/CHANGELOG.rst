@@ -2,6 +2,11 @@
 Changelog for package rosidl_default_generators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix cmake deprecation (`#31 <https://github.com/ros2/rosidl_defaults/issues/31>`_)
+* Contributors: mosfet80
+
 1.8.0 (2025-04-25)
 ------------------
 
