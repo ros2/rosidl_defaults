@@ -2,6 +2,11 @@
 Changelog for package rosidl_default_generators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.1 (2026-02-23)
+------------------
+* Added rosidl_generator_rs (Humble) (`#33 <https://github.com/ros2/rosidl_defaults/issues/33>`_)
+* Contributors: Esteve Fernandez
+
 1.2.0 (2022-03-31)
 ------------------
 * Unroll group dependencies (`#20 <https://github.com/ros2/rosidl_defaults/issues/20>`_)
