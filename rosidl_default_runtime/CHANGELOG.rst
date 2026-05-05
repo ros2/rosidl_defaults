@@ -2,6 +2,9 @@
 Changelog for package rosidl_default_runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.8.1 (2025-07-01)
 ------------------
 * fix cmake deprecation (`#31 <https://github.com/ros2/rosidl_defaults/issues/31>`_)
